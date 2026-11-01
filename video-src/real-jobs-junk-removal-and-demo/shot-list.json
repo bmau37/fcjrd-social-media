@@ -1,0 +1,91 @@
+{
+  "video": {
+    "title": "Real jobs: junk removal + demolition (30s)",
+    "track": "REAL JOBS (no character, no voice)",
+    "length_sec": 30.0,
+    "music": "music/junk-and-demo-bed.m4a",
+    "music_volume": 1.0
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-original-junk-removal-and-yard-clean-up-in-fort-collins-before-and-after-f40c4590faa2.jpg",
+      "duration_sec": 3.0,
+      "header": "JUNK REMOVAL",
+      "text_on_screen": "GOT A PILE OF JUNK?",
+      "sound": "music only"
+    },
+    {
+      "id": "s02",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-approved-garage-clean-out-ce30a416ff7f.jpg",
+      "duration_sec": 3.0,
+      "header": "JUNK REMOVAL",
+      "text_on_screen": "WE LOAD IT.",
+      "sound": "music only"
+    },
+    {
+      "id": "s03",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-original-furniture-junk-removal-in-fort-collins-before-and-after-70dbfc351d04.jpg",
+      "duration_sec": 3.0,
+      "header": "JUNK REMOVAL",
+      "text_on_screen": "WE HAUL IT.",
+      "sound": "music only"
+    },
+    {
+      "id": "s04",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-approved-couch-junk-before-after-d18058513ff6.jpg",
+      "duration_sec": 3.0,
+      "header": "JUNK REMOVAL",
+      "text_on_screen": "YOU RELAX.",
+      "sound": "music only"
+    },
+    {
+      "id": "s05",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-approved-kitchen-demolition-before-and-after-27bedf30fd32.jpg",
+      "duration_sec": 3.0,
+      "header": "DEMOLITION",
+      "text_on_screen": "THAT OLD KITCHEN HAS TO GO?",
+      "sound": "music only"
+    },
+    {
+      "id": "s06",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-original-berthoud-playhouse-demolition-before-and-after-b8f7f9796f04.jpg",
+      "duration_sec": 3.0,
+      "header": "DEMOLITION",
+      "text_on_screen": "WE TEAR IT DOWN.",
+      "sound": "music only"
+    },
+    {
+      "id": "s07",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-original-wheelchair-ramp-demolition-in-fort-collins-before-and-after-d287585db414.jpg",
+      "duration_sec": 3.0,
+      "header": "DEMOLITION",
+      "text_on_screen": "WE HAUL IT OFF.",
+      "sound": "music only"
+    },
+    {
+      "id": "s08",
+      "type": "photo",
+      "ref_image": "../../img/fcjrd-approved-shed-before-and-after-d0bec07749f6.jpg",
+      "duration_sec": 3.0,
+      "header": "DEMOLITION",
+      "text_on_screen": "SITE LEFT CLEAN.",
+      "sound": "music only"
+    },
+    {
+      "id": "s09",
+      "type": "outro",
+      "ref_image": "refs/outro-junk-and-demo.png",
+      "duration_sec": 6.0,
+      "text_on_screen": "Fort Collins Junk Removal and Demo — since 2015 — 970-694-7523",
+      "sound": "music only"
+    }
+  ]
+}
