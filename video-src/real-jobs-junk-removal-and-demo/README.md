@@ -3,7 +3,8 @@
 Finished video: [`v/real-jobs-junk-removal-and-demo-9x16.mp4`](../../v/real-jobs-junk-removal-and-demo-9x16.mp4)
 (1080x1920, 30 fps, H.264 + AAC, 30.0 s, music −14 LUFS).
 
-Assembled with the FCJRD ComfyUI video skill's own `scripts/assemble_video.py`.
+Assembled with the FCJRD ComfyUI video skill's `scripts/assemble_video.py`
+(the fixed copy in [`.claude/skills/fcjrd-comfyui-video/`](../../.claude/skills/fcjrd-comfyui-video/)).
 Every shot is a real job photo or the outro, so there is no ComfyUI render,
 no GPU, no on-screen character and no voice. The call to action is text-only
 on the outro.
@@ -45,13 +46,11 @@ is readable on the pole.
 python3 ~/.claude/skills/fcjrd-comfyui-video/scripts/assemble_video.py \
   --shot-list shot-list.json --renders renders/ \
   --out real-jobs-junk-removal-and-demo-9x16.mp4 \
-  --music music/junk-and-demo-bed.m4a --music-volume 1.0 \
   --captions captions.ass
 ```
 
-- `--music-volume 1.0`: with no voice to duck under, the skill's 0.15 default
-  would leave a music-only video almost silent.
+- The shot list sets the music and its volume (1.0). To try your own track,
+  add `--music your-track.mp3`.
+- `--captions captions.ass` keeps the styled labels. Without it, the skill
+  draws plain captions from each shot's `text_on_screen`.
 - `--renders` can point at any folder. No rendered clips are used.
-- The copy in `v/` was remuxed afterwards with `ffmpeg -c copy -movflags +faststart`
-  so it starts playing before it fully downloads, like the blitz clips. This is
-  lossless: the packets are identical.
